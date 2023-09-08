@@ -1,0 +1,45 @@
+div {
+    padding: 20px;
+}
+
+
+app-book-item {
+    display: block;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+app-command-bar {
+    display: block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+app-command-bar button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #007bff;
+    font-weight: bold;
+}
+
+app-command-bar button:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+
+div+app-command-bar {
+    margin-top: 20px;
+}

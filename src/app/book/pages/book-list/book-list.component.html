@@ -1,0 +1,5 @@
+<div>
+    <app-book-item *ngFor="let book of books" [book]="book"></app-book-item>
+</div>
+
+<app-command-bar (addClicked)="redirectToForm()"></app-command-bar>

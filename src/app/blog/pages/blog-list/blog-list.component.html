@@ -1,0 +1,5 @@
+<div>
+    <app-blog-items *ngFor="let blog of blogs" [blog]="blog"></app-blog-items>
+</div>
+
+<app-command-bar (addClicked)="redirectToForm()"></app-command-bar>

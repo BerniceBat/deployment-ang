@@ -1,0 +1,19 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" formControlName="email" required>
+    </div>
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" formControlName="name" required>
+    </div>
+    <div class="form-group">
+        <label for="bio">Bio:</label>
+        <textarea id="bio" name="bio" formControlName="bio" rows="4" required></textarea>
+    </div>
+    <div class="form-group">
+        <label for="active">Active:</label>
+        <input type="checkbox" id="active" name="active" formControlName="active">
+    </div>
+    <button type="submit" [disabled]="form.invalid">Submit</button>
+</form>

@@ -1,0 +1,17 @@
+div h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+div>div {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+div>div:last-child {
+    font-weight: bold;
+}
+
+div+app-command-bar {
+    margin-top: 20px;
+}

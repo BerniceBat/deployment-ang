@@ -1,0 +1,46 @@
+{
+    "blogs": [
+      {
+        "id": 1,
+        "title": "Blog 1",
+        "description": "My First Blog",
+        "author": "Author 1",
+        "comments": ["Comment1", "Comment2"]
+      },
+      {
+        "id": 2,
+        "title": "Blog 2",
+        "description": "My Second Blog",
+        "author": "Author 2",
+        "comments": ["Comment2", "Comment3"]
+      },
+      {
+        "id": 3,
+        "title": "Blog 3",
+        "description": "My Third Blog",
+        "author": "Author 1",
+        "comments": ["Comment4", "Comment5"]
+      }
+    ],
+    "books": [
+      {
+        "id": 1,
+        "name": "Book 1",
+        "authors": ["Author 1"],
+        "isbn": "1234567890"
+      },
+      {
+        "id": 2,
+        "name": "Book 2",
+        "authors": ["Author 2", "Author 3"],
+        "isbn": "2345678901"
+      },
+      {
+        "id": 3,
+        "name": "Book 3",
+        "authors": ["Author 3"],
+        "isbn": "3456789012"
+      }
+    ]
+  }
+  
