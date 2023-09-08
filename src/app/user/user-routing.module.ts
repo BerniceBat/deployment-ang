@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Routes } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 import { FormComponent } from './components/form/form.component';
 
 
@@ -13,7 +13,7 @@ const routes: Routes = [
 @NgModule({
   declarations: [],
   imports: [
-    CommonModule
+    CommonModule, RouterModule.forChild(routes)
   ]
 })
 export class UserRoutingModule { }

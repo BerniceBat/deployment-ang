@@ -14,6 +14,7 @@ export class BlogService {
 
   getAllBlogs(): Observable<Blog[]> {
     return this.http.get<Blog[]>(`${this.baseUrl}/blogs`);
+    
   }
 
   getBlog(id: number): Observable<Blog> {

@@ -18,6 +18,7 @@ export class BlogFormComponent implements OnInit {
 
   ngOnInit(): void {
     this.buildForm();
+    
   }
 
   buildForm() {
